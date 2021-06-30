@@ -1,0 +1,23 @@
+# Dynamic
+
+## Properties
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Name | String | A string that represents the name of the object |
+| Enabled | Boolean | The active state of the dynamic in the universe |
+| Root | Dynamic | Gets the root parent of the object. |
+| Position | Vector3 | A Vector3 that represents the object's position. |
+| Rotation | Vector3 | Gets/sets the rotation of the dynamic |
+|  Size |  Vector3 | Returns Dymanic Size |
+| Parent | Dynamic | Returns the parent of the dynamic |
+
+## Functions
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| SetParent | Void | Sets parent |
+| FindFirstChild | Dynamic | Finds Child of object by name & returns |
+| Clone | Dynamic | Clones the object |
+| Destroy | Void | Destroys the object |
+
