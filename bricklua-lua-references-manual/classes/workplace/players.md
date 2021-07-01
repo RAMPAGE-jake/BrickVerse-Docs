@@ -19,9 +19,13 @@ Inherited from [Dynamic](https://docs.brickverse.co/bricklua-lua-references-manu
 | GetPlayerByUsername | Player | Returns player with the username |
 | GetPlayerByUserId | Player | Returns player with the userid |
 | GetPlayers | Table | Returns all connected players in a table |
-| Disconnect | Void | Disconnect a player from the universe |
+| Kick | Void | Disconnect a player from the universe |
 | GetPlayerCharacterByUserId | Player | Returns character with the userid |
 | RenderPlayer | String | Returns render of the player |
+| MutePlayer | Void | Blocks player from speaking in chat & voicechat. |
+| TempBan | Void | Temp-Ban the player from the session until server restarts. |
+| MuteChat | Void | Blocks player from speaking in chat |
+| MuteVoice | Void | Blocks player from speaking in voice chat |
 
 ## Events
 
