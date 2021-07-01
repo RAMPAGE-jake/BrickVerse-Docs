@@ -5,7 +5,6 @@
 | Name | Type | Description |
 | :--- | :--- | :--- |
 | Name | String | A string that represents the name of the object |
-| Root | Dynamic | Gets the root parent of the object. |
 | Position | Vector3 | A Vector3 that represents the object's position. |
 | Rotation | Vector3 | Gets/sets the rotation of the dynamic |
 | Size |  Vector3 | Returns Dymanic Size |
