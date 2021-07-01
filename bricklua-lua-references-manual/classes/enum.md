@@ -7,6 +7,7 @@ description: Enum is a library for BrickVerse
 | Option |
 | :--- |
 | KeyCode |
+| UserInputType |
 
 | KeyCode |
 | :--- |
@@ -37,5 +38,8 @@ description: Enum is a library for BrickVerse
 | Y |
 | Z |
 
-
+| UserInputType |
+| :--- |
+| Gamepad |
+| Keyboard |
 

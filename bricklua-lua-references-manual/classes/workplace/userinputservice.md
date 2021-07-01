@@ -4,5 +4,23 @@
 
 Inherited from [Dynamic](https://docs.brickverse.co/bricklua-lua-references-manual/dymanic) Set. This Class uses [Enum](https://docs.brickverse.co/bricklua-lua-references-manual/classes/enum).
 
+## Functions
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| InputBegan | Void | Fires when input begins |
+
+## Example
+
+```lua
+Workplace.InputBegan:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.Keyboard then
+        if input.KeyCode == Enum.KeyCode.A then
+            print(input.Player.Name.." has pressed 'A'");
+        end
+    end
+end)
+```
+
 
 
