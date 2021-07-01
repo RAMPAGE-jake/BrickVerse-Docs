@@ -30,7 +30,7 @@
   * [Sound](bricklua-lua-references-manual/soundservice/sound.md)
 * [Construction](bricklua-lua-references-manual/construction/README.md)
   * [Brick](bricklua-lua-references-manual/construction/brick/README.md)
-    * [ClickDector](bricklua-lua-references-manual/construction/brick/clickdector.md)
+    * [ClickDetector](bricklua-lua-references-manual/construction/brick/clickdector.md)
 * [Dynamic](bricklua-lua-references-manual/dymanic.md)
 * [Workplace](bricklua-lua-references-manual/workplace/README.md)
   * [ScriptService](bricklua-lua-references-manual/workplace/scriptservice.md)
