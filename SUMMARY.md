@@ -26,6 +26,7 @@
 * [Roblox Vs BrickVerses Classes](bricklua-lua-references-manual/roblox-vs-brickverses-classes.md)
 * [Dynamic](bricklua-lua-references-manual/dymanic.md)
 * [Classes](bricklua-lua-references-manual/classes/README.md)
+  * [Chat](bricklua-lua-references-manual/classes/chat.md)
   * [Construction](bricklua-lua-references-manual/classes/construction/README.md)
     * [Brick](bricklua-lua-references-manual/classes/construction/brick/README.md)
       * [ClickDetector](bricklua-lua-references-manual/classes/construction/brick/clickdetector.md)
