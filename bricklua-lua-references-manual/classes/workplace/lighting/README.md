@@ -1,3 +1,7 @@
+---
+description: Control your Universe Lighting
+---
+
 # Lighting
 
 ## Properties
