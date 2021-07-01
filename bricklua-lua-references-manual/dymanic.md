@@ -9,6 +9,7 @@
 | Rotation | Vector3 | Gets/sets the rotation of the dynamic |
 | Size | Vector3 | Returns Dymanic Size |
 | Parent | Dynamic | Returns the parent of the dynamic |
+| Type | String | Type of object it is |
 
 ## Functions
 
