@@ -13,5 +13,5 @@ Inherited from [Dynamic](https://docs.brickverse.co/bricklua-lua-references-manu
 | Name | Type | Description |
 | :--- | :--- | :--- |
 | CreatorId | Int | Returns UserID of the Universe Owner |
-|  |  |  |
+| CreatorName | String | Returns Username of the Universe Owner |
 
