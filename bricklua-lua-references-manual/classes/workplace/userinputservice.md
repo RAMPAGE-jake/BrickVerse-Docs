@@ -13,7 +13,7 @@ Inherited from [Dynamic](https://docs.brickverse.co/bricklua-lua-references-manu
 ## Example
 
 ```lua
-Workplace.InputBegan:Connect(function(input)
+Workplace.UserInputService.InputBegan.Connect(function(input)
     if input.UserInputType == Enum.UserInputType.Keyboard then
         if input.KeyCode == Enum.KeyCode.A then
             print(input.Player.Name.." has pressed 'A'");
