@@ -23,6 +23,7 @@
 
 ## BrickLua - Lua References Manual
 
+* [Roblox Vs BrickVerses Classes](bricklua-lua-references-manual/roblox-vs-brickverses-classes.md)
 * [GameUI](bricklua-lua-references-manual/gameui/README.md)
   * [ScreenUI](bricklua-lua-references-manual/gameui/screenui.md)
 * [SoundService](bricklua-lua-references-manual/soundservice/README.md)
