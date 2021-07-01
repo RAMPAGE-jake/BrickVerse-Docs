@@ -1,4 +1,6 @@
-# Workplace
+---
+description: This includes all your content in your Universe.
+---
 
-This includes all content in a universe.
+# Workplace
 
