@@ -23,6 +23,7 @@
 
 ## BrickLua - Lua References Manual
 
+* [GameUI](bricklua-lua-references-manual/gameui.md)
 * [SoundService](bricklua-lua-references-manual/soundservice/README.md)
   * [Sound](bricklua-lua-references-manual/soundservice/sound.md)
 * [Construction](bricklua-lua-references-manual/construction/README.md)
