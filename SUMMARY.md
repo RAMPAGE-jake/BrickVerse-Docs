@@ -23,6 +23,8 @@
 
 ## BrickLua - Lua References Manual
 
+* [SoundService](bricklua-lua-references-manual/soundservice/README.md)
+  * [Sound](bricklua-lua-references-manual/soundservice/sound.md)
 * [Construction](bricklua-lua-references-manual/construction/README.md)
   * [Brick](bricklua-lua-references-manual/construction/brick.md)
 * [Dynamic](bricklua-lua-references-manual/dymanic.md)
