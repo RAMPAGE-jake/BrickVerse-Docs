@@ -21,7 +21,7 @@ Inherited from [Dynamic](https://docs.brickverse.co/bricklua-lua-references-manu
 ### Example
 
 ```lua
-Universe.Brick.ClickDetector.OnClick:Connect(Player)
+Universe.Brick.ClickDetector.OnClick:Connect(function(Player)
     print(Player.Name.." Pressed the button")
 end)
 ```
