@@ -30,6 +30,7 @@
     * [Brick](bricklua-lua-references-manual/classes/construction/brick/README.md)
       * [ClickDetector](bricklua-lua-references-manual/classes/construction/brick/clickdetector.md)
   * [Workplace](bricklua-lua-references-manual/classes/workplace/README.md)
+    * [Workplace](bricklua-lua-references-manual/classes/workplace/workplace-1.md)
     * [Chat](bricklua-lua-references-manual/classes/workplace/chat.md)
     * [GameUI](bricklua-lua-references-manual/classes/workplace/gameui/README.md)
       * [ScreenUI](bricklua-lua-references-manual/classes/workplace/gameui/screenui.md)
