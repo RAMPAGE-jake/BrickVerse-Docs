@@ -10,8 +10,6 @@
 * [v1/user/friends](api/v1-user-friends.md)
 * [v1/render/avatar](api/v1-render-avatar.md)
 
-## Brick Studio
-
 ## BrickLua - Coding With Lua
 
 * [Warning](bricklua-coding-with-lua/warning.md)
