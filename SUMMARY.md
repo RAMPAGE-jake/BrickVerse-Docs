@@ -41,6 +41,6 @@
   * [Lighting](bricklua-lua-references-manual/classes/lighting/README.md)
     * [PointLight](bricklua-lua-references-manual/classes/lighting/pointlight.md)
   * [Programming](bricklua-lua-references-manual/classes/programming/README.md)
-    * [LocalScript](bricklua-lua-references-manual/classes/programming/localscript.md)
+    * [ClientScript](bricklua-lua-references-manual/classes/programming/localscript.md)
     * [ServerScript](bricklua-lua-references-manual/classes/programming/untitled.md)
 
