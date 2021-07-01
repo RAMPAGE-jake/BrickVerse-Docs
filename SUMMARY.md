@@ -5,10 +5,14 @@
 ## API
 
 * [Test The API](api/test-the-api.md)
-* [v1/user/search](api/v1-user-search.md)
-* [v1/user/friend](api/v1-user-friend.md)
-* [v1/user/friends](api/v1-user-friends.md)
-* [v1/render/avatar](api/v1-render-avatar.md)
+* [Render](api/render/README.md)
+  * [v1/render/avatar](api/render/v1-render-avatar.md)
+* [Games](api/games/README.md)
+  * [v1/games/players](api/games/v1-games-players.md)
+* [User](api/user/README.md)
+  * [v1/user/friends](api/user/v1-user-friends.md)
+  * [v1/user/friend](api/user/v1-user-friend.md)
+  * [v1/user/search](api/user/v1-user-search.md)
 
 ## BrickLua - Coding With Lua
 
