@@ -86,6 +86,6 @@ Function Operational as 7/31/2021 8:30 PM PDT
 {% endhint %}
 
 {% hint style="info" %}
-Scheduled Maintenance at 9:40 PM PDT 7/31/2021 To implement the Authentication header.
+Scheduled Maintenance at 9:40 PM PDT 8/1/2021 To implement the Authentication header.
 {% endhint %}
 
