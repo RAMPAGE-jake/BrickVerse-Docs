@@ -82,6 +82,10 @@ No results found in the database.
 {% endapi-method %}
 
 {% hint style="success" %}
-Function Operational as 6/28/2021 2:44 AM PDT
+Function Operational as 7/31/2021 8:30 PM PDT
+{% endhint %}
+
+{% hint style="info" %}
+Scheduled Maintenance at 9:40 PM PDT 7/31/2021 To implement the Authentication header.
 {% endhint %}
 
