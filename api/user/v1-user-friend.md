@@ -11,6 +11,12 @@ This endpoint allows you to create friend requests.
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="Authentication" type="string" required=true %}
+API Token, go to brickverse.co/user/settings/api for one.
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
 {% api-method-body-parameters %}
 {% api-method-parameter name="friend" type="number" required=true %}
 UserId of sender
