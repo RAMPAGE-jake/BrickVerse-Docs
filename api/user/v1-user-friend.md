@@ -11,15 +11,9 @@ This endpoint allows you to create friend requests.
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-headers %}
-{% api-method-parameter name="Authentication" type="string" required=true %}
-API Token, go to brickverse.co/user/settings/api for one.
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
-
 {% api-method-body-parameters %}
-{% api-method-parameter name="friend" type="number" required=true %}
-UserId of sender
+{% api-method-parameter name="token" type="string" required=true %}
+Account Token of Sender
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="target" type="number" required=true %}
@@ -68,6 +62,16 @@ Active Request
 ```
 {% endapi-method-response-example %}
 
+{% api-method-response-example httpCode=400 %}
+{% api-method-response-example-description %}
+Invalid Token
+{% endapi-method-response-example-description %}
+
+```
+{"status": "error", "error" => "bad token"}
+```
+{% endapi-method-response-example %}
+
 {% api-method-response-example httpCode=404 %}
 {% api-method-response-example-description %}
 No results found in the database.
@@ -86,6 +90,8 @@ Function Operational as 7/31/2021 8:30 PM PDT
 {% endhint %}
 
 {% hint style="info" %}
-Scheduled Maintenance at 9:40 PM PDT 8/1/2021 To implement the Authentication header.
+Function Updated @ 8/1/2021 9:08 PM PDT
 {% endhint %}
+
+
 
