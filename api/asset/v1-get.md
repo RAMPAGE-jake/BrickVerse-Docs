@@ -50,7 +50,7 @@ No results found in the database.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% hint style="danger" %}
-Endpoint not active, yet.
+{% hint style="success" %}
+Operational as 8/1/2021 8:57 PM PDT.
 {% endhint %}
 

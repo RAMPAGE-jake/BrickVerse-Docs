@@ -50,6 +50,6 @@ No results found in the database.
 {% endapi-method %}
 
 {% hint style="success" %}
-Operational as 6/28/2021 2:44 AM PDT. Under going changes
+Operational as 6/28/2021 2:44 AM PDT.
 {% endhint %}
 
