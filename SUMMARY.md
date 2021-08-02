@@ -13,6 +13,8 @@
   * [v1/user/friends](api/user/v1-user-friends.md)
   * [v1/user/friend](api/user/v1-user-friend.md)
   * [v1/user/search](api/user/v1-user-search.md)
+* [Asset](api/asset/README.md)
+  * [v1/get](api/asset/v1-get.md)
 
 ## BrickLua - Coding With Lua
 
