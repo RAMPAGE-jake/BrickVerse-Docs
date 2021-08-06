@@ -21,10 +21,6 @@ ID Of Chat
 {% api-method-parameter name="token" type="string" required=true %}
 Authorization Token of user
 {% endapi-method-parameter %}
-
-{% api-method-parameter name="target" type="number" required=true %}
-UserId of the user
-{% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
@@ -43,7 +39,6 @@ Friends Found!
          "id": "6",
          "avatar_url": "https:\/\/brickverse.co\/assets\/img\/male.png",
         }],
-        "last_message": "hello world",
         "chat_id": "1",
         "member_count": "1",
         "chat_name": "epic friends chat!"
