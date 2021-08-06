@@ -1,5 +1,5 @@
 ---
-description: Camera Services for your Universe. Making everything possible!
+description: Camera Services for your world. Making everything possible!
 ---
 
 # Camera

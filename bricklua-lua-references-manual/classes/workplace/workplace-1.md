@@ -12,8 +12,8 @@ Inherited from [Dynamic](https://docs.brickverse.co/bricklua-lua-references-manu
 
 | Name | Type | Description |
 | :--- | :--- | :--- |
-| CreatorId | Int | Returns UserID of the Universe Owner |
-| CreatorName | String | Returns Username of the Universe Owner |
-| Genre | String | Returns the universe genre |
-| VoiceChat | Boolean | Get/Set voice chat in your universe. |
+| CreatorId | Int | Returns UserID of the World Owner |
+| CreatorName | String | Returns Username of the World Owner |
+| Genre | String | Returns the world genre |
+| VoiceChat | Boolean | Get/Set voice chat in your world. |
 

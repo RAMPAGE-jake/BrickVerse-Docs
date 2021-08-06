@@ -31,9 +31,9 @@ Inherited from [Dynamic](https://docs.brickverse.co/bricklua-lua-references-manu
 
 | Name | Description |
 | :--- | :--- |
-| PlayerConnected | Invoked when a player connected successfully to the universe |
-| PlayerRemoved | Invoked when a player disconnected successfully to the universe |
-| OnShutDown | Invoked when server is shutdown by BrickVerse staff or Universe creator. |
+| PlayerConnected | Invoked when a player connected successfully to the world |
+| PlayerRemoved | Invoked when a player disconnected successfully to the world |
+| OnShutDown | Invoked when server is shutdown by BrickVerse staff or world creator. |
 
 
 

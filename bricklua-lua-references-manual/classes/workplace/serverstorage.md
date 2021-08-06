@@ -1,7 +1,5 @@
 ---
-description: >-
-  Store server data, models, and more in the server storage where the player
-  can't reach it.
+description: 'Store server data, models, and more in the server storage.'
 ---
 
 # ServerStorage

@@ -8,7 +8,7 @@ Some developers come from the platform Roblox. Here we explain robloxs equivalen
 
 | BrickVerse | Roblox | Description |
 | :--- | :--- | :--- |
-| Universe | Workspace | Holds your game content |
+| World | Workspace | Holds your game content |
 | ScriptService | ServerScript | Holds your scripts |
 | Brick | Part | A part. |
 | GameUI | StarterGui | Starter  UI |
