@@ -56,6 +56,8 @@ Non-Operational as 6/29/2021 11:06 PM PDT. Under going changes.
 {% endhint %}
 
 {% hint style="warning" %}
-Addtional API Cooldown is added blocking renders to only be created every 10 seconds \(BrickVerse backend is exempt from this\) to prevent over-loading the API with creating mass amount of renders.
+Addtional API Cooldown is added blocking renders to only be created every 5 minutes \(BrickVerse backend is exempt from this\) to prevent over-loading the API with creating mass amount of renders.  
+  
+If you want to request a avatar instead, please use v1/user/avatar to fetch a users avatar already rendered.
 {% endhint %}
 
