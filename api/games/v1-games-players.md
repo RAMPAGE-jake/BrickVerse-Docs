@@ -1,12 +1,12 @@
-# v1/games/players
+# v1/games/details
 
-{% api-method method="post" host="https://api.brickverse.co" path="/v1/games/players" %}
+{% api-method method="post" host="https://api.brickverse.co" path="/v1/games/details" %}
 {% api-method-summary %}
 Game Information
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to see game players.
+This endpoint allows you to see game details.
 {% endapi-method-description %}
 
 {% api-method-spec %}

@@ -8,7 +8,7 @@
 * [Render](api/render/README.md)
   * [v1/render/avatar](api/render/v1-render-avatar.md)
 * [Games](api/games/README.md)
-  * [v1/games/players](api/games/v1-games-players.md)
+  * [v1/games/details](api/games/v1-games-players.md)
 * [User](api/user/README.md)
   * [v1/user/avatar](api/user/v1-user-avatar.md)
   * [v1/user/chat/send-message](api/user/v1-user-chat-send-message.md)
