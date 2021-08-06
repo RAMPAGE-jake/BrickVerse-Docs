@@ -1,6 +1,6 @@
-# v1/user/chat/fetch-chat-summary
+# v1/user/chat/chat-summary
 
-{% api-method method="post" host="https://api.brickverse.co" path="/v1/user/chat/fetch-chat-summary" %}
+{% api-method method="post" host="https://api.brickverse.co" path="/v1/user/chat/chat-summary" %}
 {% api-method-summary %}
 
 {% endapi-method-summary %}
