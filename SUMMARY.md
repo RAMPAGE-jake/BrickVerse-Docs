@@ -13,6 +13,7 @@
   * [v1/user/avatar](api/user/v1-user-avatar.md)
   * [v1/user/chat/send-message](api/user/v1-user-chat-send-message.md)
   * [v1/user/chat/chat-summary](api/user/v1-user-chat-fetch-chat-summary.md)
+  * [v1/user/get-messages](api/user/v1-user-get-messages.md)
   * [v1/user/chat/chats](api/user/v1-user-chat-fetch-chats.md)
   * [v1/user/friends](api/user/v1-user-friends.md)
   * [v1/user/friend](api/user/v1-user-friend.md)
