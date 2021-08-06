@@ -33,7 +33,7 @@ Chat Found
         "avatar_url": "https:\/\/brickverse.co\/assets\/img\/male.png",
         "last_message": "hello world",
         "chat_id": "1",
-        "chat_name": "epic friends chat!"
+        "chat_name": "BrickVerse Club"
     }]
 }
 ```
