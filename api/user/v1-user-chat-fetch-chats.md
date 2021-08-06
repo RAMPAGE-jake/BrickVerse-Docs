@@ -15,10 +15,6 @@ This endpoint returns a table of past user has been chatting with for the Chat W
 {% api-method-parameter name="token" type="string" required=true %}
 Authorization Token of user
 {% endapi-method-parameter %}
-
-{% api-method-parameter name="target" type="number" required=true %}
-UserId of the user
-{% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
