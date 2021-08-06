@@ -21,7 +21,7 @@ Authorization Token of user
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Friends Found!
+Chat Found
 {% endapi-method-response-example-description %}
 
 ```
