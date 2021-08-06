@@ -10,6 +10,7 @@
 * [Games](api/games/README.md)
   * [v1/games/players](api/games/v1-games-players.md)
 * [User](api/user/README.md)
+  * [v1/user/chat/send-message](api/user/v1-user-chat-send-message.md)
   * [v1/user/chat/chat-summary](api/user/v1-user-chat-fetch-chat-summary.md)
   * [v1/user/chat/chats](api/user/v1-user-chat-fetch-chats.md)
   * [v1/user/friends](api/user/v1-user-friends.md)
