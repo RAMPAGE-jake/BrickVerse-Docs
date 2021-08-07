@@ -9,23 +9,31 @@ description: This is useful for managing players in your universe
 | Name | Type | Description |
 | :--- | :--- | :--- |
 | LocalPlayer | Player | When called from a client script, returns the local player. Will not work for Server Scripts. |
+| Name | Void | Returns Player Name |
+| Admin | Boolean | Returns whether or not the player is BrickVerse Staff |
+| Host | Boolean | Returns whether or not the player is the World Creator |
+| BVID | Int | Returns UserID Of player on BrickVerse |
 
 Inherited from [Dynamic](https://docs.brickverse.co/bricklua-lua-references-manual/dymanic) Set
 
 ## Functions
 
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| GetPlayerByUsername | Player | Returns player with the username |
-| GetPlayerByUserId | Player | Returns player with the userid |
-| GetPlayers | Table | Returns all connected players in a table |
-| Kick | Void | Disconnect a player from the universe |
-| GetPlayerCharacterByUserId | Player | Returns character with the userid |
-| RenderPlayer | String | Returns render of the player |
-| MutePlayer | Void | Blocks player from speaking in chat & voicechat. |
-| TempBan | Void | Temp-Ban the player from the session until server restarts. |
-| MuteChat | Void | Blocks player from speaking in chat |
-| MuteVoice | Void | Blocks player from speaking in voice chat |
+| Name | Type | Property | Description |
+| :--- | :--- | :--- | :--- |
+| GetPlayerByUsername | Player | Players | Returns player with the username from BrickVerse.co DB |
+| GetPlayerByUserId | Player | Players | Returns player with the userid from BrickVerse.co DB |
+| GetPlayers | Table | Players | Returns all connected players |
+| Kick | Void | Player | Disconnect a player from the world |
+| GetPlayerCharacterByUserId | Model | Players | Returns character with the userid in workplace |
+| GetPlayerCharacterByUsername | Model | Players | Returns character with the username in workplace |
+| GetPlayerCharacterByNetID | Model | Players | Returns character with the netid in workplace |
+| MutePlayer | Void | Player | Blocks player from speaking in chat & voicechat. |
+| MuteChat | Void | Player | Blocks player from speaking in chat |
+| MuteVoice | Void | Player | Blocks player from speaking in voice chat |
+| Respawn | Void | Player | Respawns the player |
+| NETID | Void | Player | Returns ID of the server id of the player |
+| PlayerCount | Int | Players | Return player count |
+| MaxPlayers | Int | Players | Returns max players |
 
 ## Events
 
