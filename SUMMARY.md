@@ -21,6 +21,10 @@
 * [Asset](api/asset/README.md)
   * [v1/get](api/asset/v1-get.md)
 
+## Getting Started
+
+* [Introduction](getting-started/introduction.md)
+
 ## BrickLua - Coding With Lua
 
 * [Warning](bricklua-coding-with-lua/warning.md)
