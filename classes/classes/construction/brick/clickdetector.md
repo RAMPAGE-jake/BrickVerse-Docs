@@ -21,10 +21,10 @@ Inherited from [Dynamic](https://docs.brickverse.co/bricklua-lua-references-manu
 ### Example
 
 ```lua
-Universe.Brick.ClickDetector.OnClick:Connect(function(Player)
+World.Workplace.Brick.ClickDetector.OnClick:Connect(function(Player)
     print(Player.Name.." Pressed the button")
 end)
 ```
 
-For full list of options under player seek to [https://docs.brickverse.co/bricklua-lua-references-manual/workplace/players](https://docs.brickverse.co/bricklua-lua-references-manual/workplace/players)
+For full list of options under player seek to [https://developers.brickverse.co/bricklua-lua-references-manual/workplace/players](https://docs.brickverse.co/bricklua-lua-references-manual/workplace/players)
 
