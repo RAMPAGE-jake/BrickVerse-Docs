@@ -6,5 +6,9 @@ Welcome to BrickVerse Documentation, Here you can find API Documents, Developer 
 
 ## Contribute
 
-Help with our wonderful documents!
+Help with our wonderful documents! By contributing on our official GitHub!
+
+
+
+[https://github.com/RAMPAGE-jake/BrickVerse-Docs](https://github.com/RAMPAGE-jake/BrickVerse-Docs)
 
