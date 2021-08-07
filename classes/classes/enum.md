@@ -2,7 +2,7 @@
 description: Enum is a library for BrickVerse
 ---
 
-# Enum
+# Enum Class
 
 | Option |
 | :--- |
