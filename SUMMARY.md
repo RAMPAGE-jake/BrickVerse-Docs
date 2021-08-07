@@ -30,7 +30,7 @@
 
 ## BrickLua - Lua References Manual
 
-* [Roblox Vs BrickVerses Classes](bricklua-lua-references-manual/roblox-vs-brickverses-classes.md)
+* [Roblox Vs BrickVerse Classes](bricklua-lua-references-manual/roblox-vs-brickverses-classes.md)
 * [Dynamic](bricklua-lua-references-manual/dymanic.md)
 * [Classes](bricklua-lua-references-manual/classes/README.md)
   * [Enum](bricklua-lua-references-manual/classes/enum.md)

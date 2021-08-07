@@ -2,7 +2,7 @@
 description: Some developers come from the platform Roblox.
 ---
 
-# Roblox Vs BrickVerses Classes
+# Roblox Vs BrickVerse Classes
 
 Some developers come from the platform Roblox. Here we explain robloxs equivalents of our classes.
 
