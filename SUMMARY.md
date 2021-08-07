@@ -37,7 +37,7 @@
 * [Roblox Vs BrickVerse Classes](classes/roblox-vs-brickverses-classes.md)
 * [Dynamic](classes/dymanic.md)
 * [Constructors](classes/constructors/README.md)
-  * [Color](classes/constructors/color.md)
+  * [Color Constructor](classes/constructors/color.md)
 * [Classes](classes/classes/README.md)
   * [Enum Class](classes/classes/enum.md)
   * [Construction Class](classes/classes/construction/README.md)

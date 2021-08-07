@@ -2,7 +2,7 @@
 description: 'Creates a new color, used for UI & Bricks. This is a function.'
 ---
 
-# Color
+# Color Constructor
 
 ## Example
 
