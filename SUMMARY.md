@@ -36,6 +36,8 @@
 
 * [Roblox Vs BrickVerse Classes](classes/roblox-vs-brickverses-classes.md)
 * [Dynamic](classes/dymanic.md)
+* [Events](classes/events.md)
+* [Constructors](classes/constructors.md)
 * [Classes](classes/classes/README.md)
   * [Enum](classes/classes/enum.md)
   * [Construction](classes/classes/construction/README.md)
