@@ -10,11 +10,10 @@ Inherited from [Dynamic](https://docs.brickverse.co/bricklua-lua-references-manu
 
 ## Functions
 
-| Name        | Type    | Description                         | Authority |
-| ----------- | ------- | ----------------------------------- | --------- |
-| CreatorId   | Int     | Returns UserID of the World Owner   | Core      |
-| CreatorName | String  | Returns Username of the World Owner | Core      |
-| Genre       | String  | Returns the world genre.            | Core      |
-| VoiceChat   | Boolean | Get/Set voice chat in your world.   | Server    |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| CreatorId | Int | Returns UserID of the World Owner |
+| CreatorName | String | Returns Username of the World Owner |
+| Genre | String | Returns the world genre |
+| VoiceChat | Boolean | Get/Set voice chat in your world. |
 
-For information regarding authority please go to [https://developers.brickverse.co/classes/whats-authority](https://developers.brickverse.co/classes/whats-authority)
