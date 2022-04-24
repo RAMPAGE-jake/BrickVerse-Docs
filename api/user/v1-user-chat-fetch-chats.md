@@ -1,29 +1,15 @@
 # v1/user/chat/chats
 
-{% api-method method="post" host="https://api.brickverse.co" path="/v1/user/chat/chats" %}
-{% api-method-summary %}
-
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://api.brickverse.co" path="/v1/user/chat/chats" method="post" summary="" %}
+{% swagger-description %}
 This endpoint returns a table of past user has been chatting with for the Chat Widget.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="token" type="string" required=true %}
+{% swagger-parameter in="body" name="token" type="string" %}
 Authorization Token of user
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Chat Found
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Chat Found" %}
 ```
 {
     "status": "success",
@@ -37,22 +23,15 @@ Chat Found
     }]
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-No results found in the database.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="No results found in the database." %}
 ```
 {"status": "error"}
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 {% hint style="danger" %}
 Non Opertional
 {% endhint %}
-

@@ -1,35 +1,19 @@
 # v1/user/search
 
-{% api-method method="post" host="https://api.brickverse.co" path="/v1/user/search" %}
-{% api-method-summary %}
-Search Users
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://api.brickverse.co" path="/v1/user/search" method="post" summary="Search Users" %}
+{% swagger-description %}
 This endpoint allows you to search for users in the BrickVerse Database.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-headers %}
-{% api-method-parameter name="Authentication" type="string" required=true %}
+{% swagger-parameter in="header" name="Authentication" type="string" %}
 Authentication token. For public usage use token "public"
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
+{% endswagger-parameter %}
 
-{% api-method-body-parameters %}
-{% api-method-parameter name="username" type="string" required=true %}
+{% swagger-parameter in="body" name="username" type="string" %}
 Part of or full username of player.
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-User Found
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="User Found" %}
 ```
 {
     "status": "success",
@@ -40,22 +24,15 @@ User Found
     }]
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-No results found in the database.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="No results found in the database." %}
 ```
 {"status": "error", "error" => "no results"}
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 {% hint style="success" %}
 Function Operational as 6/28/2021 2:44 AM PDT
 {% endhint %}
-

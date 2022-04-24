@@ -1,29 +1,15 @@
 # v1/user/friends
 
-{% api-method method="post" host="https://api.brickverse.co" path="/v1/user/friends" %}
-{% api-method-summary %}
-View Friends
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://api.brickverse.co" path="/v1/user/friends" method="post" summary="View Friends" %}
+{% swagger-description %}
 This endpoint allows you to see active-friends.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="target" type="number" required=true %}
+{% swagger-parameter in="body" name="target" type="number" %}
 UserId of the user
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Friends Found!
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Friends Found!" %}
 ```
 {
     "status": "success",
@@ -34,22 +20,15 @@ Friends Found!
     }]
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-No results found in the database.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="No results found in the database." %}
 ```
 {"status": "error", "error" => "User has no friends"}
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 {% hint style="success" %}
 Operational as 6/28/2021 2:44 AM PDT.
 {% endhint %}
-

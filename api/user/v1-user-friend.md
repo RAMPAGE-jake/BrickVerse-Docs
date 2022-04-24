@@ -1,89 +1,57 @@
 # v1/user/friend
 
-{% api-method method="post" host="https://api.brickverse.co" path="/v1/user/friend" %}
-{% api-method-summary %}
-Add Friend
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://api.brickverse.co" path="/v1/user/friend" method="post" summary="Add Friend" %}
+{% swagger-description %}
 This endpoint allows you to create friend requests.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="token" type="string" required=true %}
+{% swagger-parameter in="body" name="token" type="string" %}
 Account Token of Sender
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="target" type="number" required=true %}
+{% swagger-parameter in="body" name="target" type="number" %}
 UserId of target to add
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Request Created
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Request Created" %}
 ```
 {
     "status": "success",
     "message": "sent"
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=302 %}
-{% api-method-response-example-description %}
-Already Friends
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="302" description="Already Friends" %}
 ```
 {
     "status": "success",
     "message": "active friends"
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=304 %}
-{% api-method-response-example-description %}
-Active Request
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="304" description="Active Request" %}
 ```
 {
     "status": "success",
     "message": "active request"
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=400 %}
-{% api-method-response-example-description %}
-Invalid Token
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="400" description="Invalid Token" %}
 ```
 {"status": "error", "error" => "bad token"}
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-No results found in the database.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="No results found in the database." %}
 ```
 {"status": "error", "error" => "no results"}
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 {% hint style="success" %}
 Function Operational as 7/31/2021 8:30 PM PDT
@@ -92,6 +60,4 @@ Function Operational as 7/31/2021 8:30 PM PDT
 {% hint style="info" %}
 Function Updated @ 8/1/2021 9:08 PM PDT
 {% endhint %}
-
-
 

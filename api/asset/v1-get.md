@@ -1,29 +1,15 @@
 # v1/get
 
-{% api-method method="post" host="https://api.brickverse.co" path="/v1/asset/get" %}
-{% api-method-summary %}
-
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://api.brickverse.co" path="/v1/asset/get" method="post" summary="" %}
+{% swagger-description %}
 This endpoint allows you to get asset information
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="assetid" type="number" required=true %}
+{% swagger-parameter in="body" name="assetid" type="number" %}
 AssetID
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Friends Found!
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Friends Found!" %}
 ```
 {
     "status": "success",
@@ -35,22 +21,15 @@ Friends Found!
     }]
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-No results found in the database.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="No results found in the database." %}
 ```
 {"status": "error", "error" => "No asset could be found with that ID"}
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 {% hint style="success" %}
 Operational as 8/1/2021 8:57 PM PDT.
 {% endhint %}
-

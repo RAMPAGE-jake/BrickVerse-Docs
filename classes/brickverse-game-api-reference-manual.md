@@ -5,8 +5,9 @@ description: >-
   game universes.
 ---
 
-# BrickVerse Game PI Reference Manual
+# BrickVerse Game API Reference Manual
 
 ## Lua Globals
 
-* corountine
+* [corountine](globals/coroutine.md)
+* [debug](globals/debug.md)

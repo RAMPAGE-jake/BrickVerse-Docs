@@ -36,8 +36,9 @@
 
 * [What's Authority?](classes/whats-authority.md)
 * [Roblox Vs BrickVerse Classes](classes/roblox-vs-brickverses-classes.md)
-* [BrickVerse Game PI Reference Manual](classes/brickverse-game-pi-reference-manual.md)
+* [BrickVerse Game API Reference Manual](classes/brickverse-game-api-reference-manual.md)
 * [Globals](classes/globals/README.md)
+  * [debug](classes/globals/debug.md)
   * [coroutine](classes/globals/coroutine.md)
 * [Dynamic](classes/dymanic.md)
 * [Constructors](classes/constructors/README.md)

@@ -1,29 +1,15 @@
 # v1/games/details
 
-{% api-method method="post" host="https://api.brickverse.co" path="/v1/games/details" %}
-{% api-method-summary %}
-Game Information
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://api.brickverse.co" path="/v1/games/details" method="post" summary="Game Information" %}
+{% swagger-description %}
 This endpoint allows you to see game details.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="target" type="number" required=true %}
+{% swagger-parameter in="body" name="target" type="number" %}
 Game ID
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Friends Found!
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Friends Found!" %}
 ```
 {
     "status": "success",
@@ -33,22 +19,15 @@ Friends Found!
     "owner": 1,
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-No results found in the database.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="No results found in the database." %}
 ```
 {"status": "error", "error" => "no data found"}
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 {% hint style="danger" %}
 Non-Operational as 6/30/2021 7:35 AM PDT. Under going changes
 {% endhint %}
-

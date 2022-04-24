@@ -1,58 +1,37 @@
 # v1/user/chat/send-message
 
-{% api-method method="post" host="https://api.brickverse.co" path="/v1/user/chat/send-message" %}
-{% api-method-summary %}
-
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://api.brickverse.co" path="/v1/user/chat/send-message" method="post" summary="" %}
+{% swagger-description %}
 his endpoint sends message.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="content" type="string" required=true %}
+{% swagger-parameter in="body" name="content" type="string" %}
 Chat Message
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="chatId" type="number" required=true %}
+{% swagger-parameter in="body" name="chatId" type="number" %}
 Chat ID
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="token" type="string" required=true %}
+{% swagger-parameter in="body" name="token" type="string" %}
 Authorization Token of user
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Message Sent!
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Message Sent!" %}
 ```
 {
     "status": "success"
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=304 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="304" description="" %}
 ```
 {"status": "content-too-long"}
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 {% hint style="danger" %}
 Non Opertional
 {% endhint %}
-

@@ -1,35 +1,19 @@
 # v1/user/chat/chat-summary
 
-{% api-method method="post" host="https://api.brickverse.co" path="/v1/user/chat/chat-summary" %}
-{% api-method-summary %}
-
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://api.brickverse.co" path="/v1/user/chat/chat-summary" method="post" summary="" %}
+{% swagger-description %}
 This endpoint returns a table of the chat summary
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="chatId" type="number" required=true %}
+{% swagger-parameter in="query" name="chatId" type="number" %}
 ID Of Chat
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
+{% endswagger-parameter %}
 
-{% api-method-body-parameters %}
-{% api-method-parameter name="token" type="string" required=true %}
+{% swagger-parameter in="body" name="token" type="string" %}
 Authorization Token of user
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Summary Found
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Summary Found" %}
 ```
 {
     "status": "success",
@@ -45,22 +29,15 @@ Summary Found
     }]
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-No results found in the database.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="No results found in the database." %}
 ```
 {"status": "error"}
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 {% hint style="danger" %}
 Non Opertional
 {% endhint %}
-
