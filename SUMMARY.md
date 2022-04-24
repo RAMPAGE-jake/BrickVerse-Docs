@@ -64,5 +64,8 @@
     * [Players](classes/classes/world/players.md)
     * [ServerStorage](classes/classes/world/serverstorage.md)
   * [Script Classes](classes/classes/programming/README.md)
+    * [Script Dynamics](classes/classes/programming/script-dynamics.md)
+    * [CoreScript](classes/classes/programming/corescript.md)
+    * [ModuleScript](classes/classes/programming/modulescript.md)
     * [ClientScript](classes/classes/programming/localscript.md)
     * [ServerScript](classes/classes/programming/untitled.md)
