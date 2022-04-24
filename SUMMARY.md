@@ -32,8 +32,9 @@
 * [Style Your Code](bricklua-coding-with-lua/untitled.md)
 * [Player Event](bricklua-coding-with-lua/player-event.md)
 
-## Developer Guide <a id="classes"></a>
+## Developer Guide <a href="#classes" id="classes"></a>
 
+* [What's Authority?](classes/whats-authority.md)
 * [Roblox Vs BrickVerse Classes](classes/roblox-vs-brickverses-classes.md)
 * [Dynamic](classes/dymanic.md)
 * [Constructors](classes/constructors/README.md)
@@ -60,4 +61,3 @@
   * [Script Classes](classes/classes/programming/README.md)
     * [ClientScript](classes/classes/programming/localscript.md)
     * [ServerScript](classes/classes/programming/untitled.md)
-

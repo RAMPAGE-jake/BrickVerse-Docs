@@ -17,5 +17,5 @@ Inherited from [Dynamic](https://docs.brickverse.co/bricklua-lua-references-manu
 
 Supported color constructors
 
-* fromRGB(r, g, b)
-* fromHEX("#ffffff")
+* fromRGB(Vector 3)
+* fromHEX(String)
