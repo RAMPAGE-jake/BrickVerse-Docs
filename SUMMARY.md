@@ -40,6 +40,7 @@
 * [Globals](classes/globals/README.md)
   * [debug](classes/globals/debug.md)
   * [coroutine](classes/globals/coroutine.md)
+* [BrickVerse Globals](classes/brickverse-globals.md)
 * [Dynamic](classes/dymanic.md)
 * [Constructors](classes/constructors/README.md)
   * [Color Constructor](classes/constructors/color.md)

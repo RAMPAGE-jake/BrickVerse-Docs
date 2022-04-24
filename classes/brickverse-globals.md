@@ -1,0 +1,2 @@
+# BrickVerse Globals
+
