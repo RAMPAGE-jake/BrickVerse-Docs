@@ -6,14 +6,14 @@ Inherited from [Dynamic](https://docs.brickverse.co/bricklua-lua-references-manu
 
 ## Functions
 
-| Name       | Type | Description             |
-| ---------- | ---- | ----------------------- |
+| Name | Type | Description |
+| :--- | :--- | :--- |
 | InputBegan | Void | Fires when input begins |
 
 ## Example
 
 ```lua
-World:GetService("UserInputService").InputBegan(function(input)
+World.UserInputService.InputBegan(function(input)
     if input.UserInputType == Enum.UserInputType.Keyboard then
         if input.KeyCode == Enum.KeyCode.A then
             print(input.Player.Name.." has pressed 'A'");
@@ -21,4 +21,6 @@ World:GetService("UserInputService").InputBegan(function(input)
     end
 end)
 ```
+
+
 

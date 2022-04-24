@@ -1,21 +1,22 @@
 ---
-description: Creates a new color, used for UI & Bricks. This is a function.
+description: 'Creates a new color, used for UI & Bricks. This is a function.'
 ---
 
 # Color Constructor
 
 ## Example
 
-```
-local MyPart = World.Brick
-MyPart.Color = Color.fromRGB(255, 255, 255)
+```text
+local MyPart = World.Brick.Color = Color.new("RGB", 255, 255, 255)
 ```
 
 Inherited from [Dynamic](https://docs.brickverse.co/bricklua-lua-references-manual/dymanic) Set
 
-## Constructing
+## Args
 
-Supported color constructors
+First arg accepts one of the following, the second arg, and so on is the color configuration.
 
-* fromRGB(Vector 3)
-* fromHEX(String)
+* RGB
+* RGBA
+* HEX
+

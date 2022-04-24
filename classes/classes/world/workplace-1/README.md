@@ -16,3 +16,5 @@ Inherited from [Dynamic](https://docs.brickverse.co/bricklua-lua-references-manu
 | CreatorName | String  | Returns Username of the World Owner | Core      |
 | Genre       | String  | Returns the world genre.            | Core      |
 | VoiceChat   | Boolean | Get/Set voice chat in your world.   | Server    |
+
+For information regarding authority please go to [https://developers.brickverse.co/classes/whats-authority](https://developers.brickverse.co/classes/whats-authority)
