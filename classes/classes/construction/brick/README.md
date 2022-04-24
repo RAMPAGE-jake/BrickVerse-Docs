@@ -14,4 +14,6 @@ description: The base class for a physical object
 | Transparency | Int        | The transparency of the part represented as a byte. (0 = opaque, 1= invisible)              |
 | Color        | BrickColor | RGB Color of the brick                                                                      |
 
-Inherited from [Dynamic](https://docs.brickverse.co/bricklua-lua-references-manual/dymanic) Set\
+Inherited from [Dynamic](https://docs.brickverse.co/bricklua-lua-references-manual/dymanic) Set
+
+Inherited from [BasePart](https://docs.brickverse.co/bricklua-lua-references-manual/dymanic) Set\
