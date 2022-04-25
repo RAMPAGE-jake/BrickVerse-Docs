@@ -1,2 +1,2 @@
-# BrickVerse Globals
+# Learn BrickVerse
 
