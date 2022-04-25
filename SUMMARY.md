@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome](README.md)
+* [Frequently Asked Questions (FAQ)](frequently-asked-questions-faq.md)
 
 ## API
 
@@ -40,7 +41,7 @@
 * [Globals](classes/globals/README.md)
   * [debug](classes/globals/debug.md)
   * [coroutine](classes/globals/coroutine.md)
-* [Learn BrickVerse](classes/learn-brickverse/README.md)
+* [Learn BrickVerse](classes/brickverse-globals.md)
   * [Functions](classes/learn-brickverse/functions.md)
   * [Strings](classes/learn-brickverse/strings.md)
   * [Tables](classes/learn-brickverse/tables.md)
@@ -49,10 +50,10 @@
   * [Opeartors](classes/learn-brickverse/opeartors.md)
   * [bit32](classes/learn-brickverse/bit32.md)
   * [Numbers](classes/learn-brickverse/numbers.md)
-* [Dynamic](classes/dymanic/README.md)
+* [Dynamic](classes/dymanic.md)
   * [UIObject](classes/dymanic/uiobject.md)
-  * [Script](classes/dymanic/script.md)
-  * [BasePart](classes/dymanic/basepart.md)
+  * [Script](classes/classes/programming/script-dynamics.md)
+  * [BasePart](classes/classes/construction/basepart.md)
 * [Classes](classes/classes/README.md)
   * [Enum Class](classes/classes/enum.md)
   * [ServiceProvider](classes/classes/serviceprovider/README.md)
@@ -89,3 +90,7 @@
     * [Vector2](classes/classes/datatype/vector2.md)
     * [Vector3](classes/classes/datatype/vector3.md)
     * [Color](classes/classes/datatype/color.md)
+
+## Employment
+
+* [List Of Administrators](employment/list-of-administrators.md)

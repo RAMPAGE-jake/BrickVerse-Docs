@@ -1,3 +1,11 @@
+---
+description: >-
+  Looking for help? You're in the right place! This website provides helpful
+  resources and answers to questions you may have about BrickVerse.
+cover: .gitbook/assets/intro.png
+coverY: 0
+---
+
 # Welcome
 
 ## Welcome
@@ -11,4 +19,3 @@ Help with our wonderful documents! By contributing on our official GitHub!
 
 
 [https://github.com/RAMPAGE-jake/BrickVerse-Docs](https://github.com/RAMPAGE-jake/BrickVerse-Docs)
-
