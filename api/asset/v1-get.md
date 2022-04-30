@@ -1,6 +1,6 @@
 # v1/get
 
-{% swagger baseUrl="https://api.brickverse.co" path="/v1/asset/get" method="post" summary="" %}
+{% swagger baseUrl="https://api.brickverse.co" path="/v1/asset/get" method="get" summary="" %}
 {% swagger-description %}
 This endpoint allows you to get asset information
 {% endswagger-description %}
@@ -30,6 +30,6 @@ AssetID
 {% endswagger-response %}
 {% endswagger %}
 
-{% hint style="success" %}
-Operational as 8/1/2021 8:57 PM PDT.
+{% hint style="danger" %}
+Endpoint inactive. under going revamp.
 {% endhint %}

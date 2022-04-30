@@ -5,8 +5,12 @@
 This endpoint allows you to get avtar URL of an user, this doesn't generate a render.
 {% endswagger-description %}
 
-{% swagger-parameter in="body" name="target" type="string" %}
-Full Username Or UserID
+{% swagger-parameter in="body" name="id" type="Int" required="true" %}
+Player User ID
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="type" type="String" %}
+Render Type
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="User Found" %}
@@ -20,11 +24,17 @@ Full Username Or UserID
 
 {% swagger-response status="404" description="No results found in the database." %}
 ```
-{"status": "error", "error" => "no results"}
+{"status": "error", "reason" => "no results"}
 ```
 {% endswagger-response %}
 {% endswagger %}
 
-{% hint style="danger" %}
-API Under going changes, non-functional.
-{% endhint %}
+## Errors
+
+|          Error         |                         Fix                         |
+| :--------------------: | :-------------------------------------------------: |
+| no player id specified |      Must include "id" in body of your request      |
+|    invalid player id   |         We couldnt validate ID was a intval.        |
+|   invalid render type  | Valid types are "player\__head" and "player\_body"_ |
+
+Type is optional and will default to player\_head.
