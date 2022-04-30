@@ -8,6 +8,7 @@ This is a general list of BrickVerse Administrators, this list is updated occasi
 * pasdalover - Co Founder
 * verbxtim - Chief Operations Officer
 * anotherant - Chief Development Officer
+* TheRealTrea - Trust & Safety Director
 
 ## Administrators
 
@@ -15,10 +16,10 @@ This is a general list of BrickVerse Administrators, this list is updated occasi
 * AloneTraveler - Chief Financial Officer
 * Vinay - Chief Marketing Officer
 * Zay - Treasurer
-* alex - Trust & Safety Director
+* alex - Trust & Safety Deputy Director
 * Knight - President
 * BuzzingDuck - Vice President
-* JoJoVid - Software Engineer
+* JoJoVid - Software Engineer, and Trust & Safety
 * teamraxy - Sr. Software Engieer
 
 ## Employees
@@ -28,6 +29,8 @@ This is a general list of BrickVerse Administrators, this list is updated occasi
 * Stacy - Manager
 * Green - Trust & Safety
 * rabid - Trust & Safety
+* ZS1Gaming - Trust & Safety
+* WillowDevelops - Trust & Safety
 
 ## Interns
 
