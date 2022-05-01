@@ -14,7 +14,12 @@ Player Username
 {
     "status": "success",
     "username": "ArkInfinity",
-    "id": 3
+    "id": 3,
+    "cubes": 500,
+    "plan": "LEVEL_3",
+    "rank": "Manager",
+    "avatar_body": "generatedurl.png",
+    "avatar_head": "generatedurl.png"
 }
 ```
 {% endswagger-response %}
@@ -32,3 +37,15 @@ Player Username
 | :----------------------: | :----------------------: |
 | Username wasn't found. 1 | No username found in GET |
 | Username wasn't found. 2 |    No database results   |
+
+## Data Explained
+
+LEVEL_3 = Gold Plan._\
+_LEVEL_2 = Silver Plan\
+LEVEL\_1  = Bronze Plan\
+Member = Non-Plan.
+
+Manager = Highest Staff Rank\
+Administrator = Highly trusted staff.\
+Moderator = Staff\
+Member = Player
