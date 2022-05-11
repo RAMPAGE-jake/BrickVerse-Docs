@@ -13,6 +13,7 @@
 * [Games](api/games/README.md)
   * [v1/games/details](api/games/v1-games-details.md)
 * [User](api/user/README.md)
+  * [v1/user/request-data](api/user/v1-user-request-data.md)
   * [v1/user/avatar](api/user/v1-user-avatar.md)
   * [v1/user/get-by-username](api/user/v1-user-avatar-1.md)
   * [v1/user/get-token](api/user/v1-user-avatar-2.md)
