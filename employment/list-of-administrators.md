@@ -19,8 +19,9 @@ This is a general list of BrickVerse Administrators, this list is updated occasi
 * alex - Trust & Safety Deputy Director
 * Knight - President
 * BuzzingDuck - Vice President
-* JoJoVid - Software Engineer, and Trust & Safety
-* teamraxy - Sr. Software Engieer
+* JoJoVid - Software Engineer, and Trust & Safety (ClientCore BrickLua)
+* teamraxy - Sr. Software Engieer (Backend PHP CPP C#)
+* Harri - Software Engineer (Frontend CSS)
 
 ## Employees
 
