@@ -5,11 +5,11 @@
 This endpoint allows you to create friend requests.
 {% endswagger-description %}
 
-{% swagger-parameter in="body" name="token" type="string" %}
+{% swagger-parameter in="body" name="token" type="string" required="true" %}
 Account Token of Sender
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="target" type="number" %}
+{% swagger-parameter in="body" name="target" type="number" required="true" %}
 UserId of target to add
 {% endswagger-parameter %}
 
