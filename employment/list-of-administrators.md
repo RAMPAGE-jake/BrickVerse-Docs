@@ -76,5 +76,11 @@ Managers have the authority to view IPs, MACIDs, issue site ranks, edit site set
 
 The Site administration has large tools to help secure our site and tools to help you restore your account.
 
+![](<../.gitbook/assets/image (3).png>)
+
+
+
+Official staff Moderator+ role have the Administrator badge on their profile.
+
 ![](<../.gitbook/assets/image (2).png>)
 

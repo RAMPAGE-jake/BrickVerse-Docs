@@ -3,6 +3,18 @@
 * [Welcome](README.md)
 * [Frequently Asked Questions (FAQ)](frequently-asked-questions-faq.md)
 
+## NPM Module
+
+* [Introduction](npm-module/introduction.md)
+* [Bot Account](npm-module/bot-account.md)
+* [Web API](npm-module/web-api/README.md)
+  * [Client](npm-module/web-api/client.md)
+  * [login](npm-module/web-api/login.md)
+  * [quit](npm-module/web-api/quit.md)
+  * [Friends Endpoint](npm-module/web-api/friends-endpoint/README.md)
+    * [SendFriendRequest](npm-module/web-api/friends-endpoint/sendfriendrequest.md)
+    * [GetFriends](npm-module/web-api/friends-endpoint/getfriends.md)
+
 ## API
 
 * [Test The API](api/test-the-api.md)
