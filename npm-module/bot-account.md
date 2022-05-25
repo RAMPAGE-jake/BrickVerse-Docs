@@ -10,6 +10,6 @@ Bot accounts have some perks & restrictions, bot accounts cannot be logged in vi
 
 Bot accounts have some upgrades, they can join up to 100 guilds, but cannot join universes or purchase from the catalog. However, bots can accept trades & send trades to friends only (this is to prevent spam), Bots have no friend limit compared to users.\
 \
-The Creator panel acts as an administrative panel to manage your bot. When using login() functions please declare  "player" for player accounts & "bot" for bot accounts.\
+The Creator panel acts as an administrative panel to manage your bot. When using login() functions please declare a boolean if its a bot or not. (true for yes, false for no)\
 \
 Bot accounts with have a Bot tag & badge on BrickVerse.co, at any given moment in time we may suspend service of the ability to use non-bot accounts.
