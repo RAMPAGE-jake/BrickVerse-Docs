@@ -21,7 +21,21 @@ bot.login(process.env.BRICKVERSE_SECURITY_TOKEN, false).then(async() => {
 
 ## NPM
 
+(got unpublished, on waitlist of 24 hours)
+
+```powershell
+npm i brickverse
+```
+
 {% embed url="https://www.npmjs.com/package/brickverse" %}
+
+## Yarn
+
+```powershell
+yarn add brickverse
+```
+
+
 
 {% hint style="danger" %}
 If you fork it from GitHub, you must credit BrickVerse.co and do not claim it as official. Please note we do regularly make maintenance to our API which requires updates to the module.\
