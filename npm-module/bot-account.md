@@ -4,7 +4,7 @@ In order to interact with our API you must create a bot account at create.brickv
 \
 Please note, BrickVerse staff advise not to use Account Token & use a bot account that we created dedicated towards this usage.\
 \
-Bot account session tokens do not expire on logout unless regenerated via the Bot Control menu at create.brickverse.co/bot/manage/select
+Bot account session tokens do not expire on logout unless regenerated via the Bot Control menu at create.brickverse.co/bot/manage
 
 Bot accounts have some perks & restrictions, bot accounts cannot be logged in via Login form on BrickVerse.co unless manually set via Cookie & Auth Endpoint.
 

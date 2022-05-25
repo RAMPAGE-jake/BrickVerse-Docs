@@ -14,6 +14,8 @@
   * [Friends Endpoint](npm-module/web-api/friends-endpoint/README.md)
     * [SendFriendRequest](npm-module/web-api/friends-endpoint/sendfriendrequest.md)
     * [GetFriends](npm-module/web-api/friends-endpoint/getfriends.md)
+  * [User Endpoint](npm-module/web-api/user-endpoint/README.md)
+    * [GetAvatar](npm-module/web-api/user-endpoint/getavatar.md)
 
 ## API
 

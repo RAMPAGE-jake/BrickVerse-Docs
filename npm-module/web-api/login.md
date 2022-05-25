@@ -8,15 +8,7 @@ Once you inited a new client you must login into your BrickVerse bot account, si
 const { Client } = requre("brickverse");
 let bot = new Client();
 
-bot.login(process.env.BRICKVERSE_SECURITY_TOKEN, false).then(async() => {
+bot.login(process.env.BRICKVERSE_SECURITY_TOKEN, "player").then(async() => {
     await bot.SendFriendRequest(1);
 });
 ```
-
-## Parameters
-
-| Name  | Type    | Description                                              |
-| ----- | ------- | -------------------------------------------------------- |
-| token | string  | BrickVerse Security Token or Bot Token for bot accounts. |
-| isbot | boolean | If bot or player account.                                |
-
