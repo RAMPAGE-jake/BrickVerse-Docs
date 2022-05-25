@@ -16,6 +16,9 @@
     * [GetFriends](npm-module/web-api/friends-endpoint/getfriends.md)
   * [User Endpoint](npm-module/web-api/user-endpoint/README.md)
     * [GetAvatar](npm-module/web-api/user-endpoint/getavatar.md)
+    * [GetPlayerByUsername](npm-module/web-api/user-endpoint/getplayerbyusername.md)
+  * [Guild Endpoint](npm-module/web-api/guild-endpoint/README.md)
+    * [JoinGuild](npm-module/web-api/guild-endpoint/joinguild.md)
 
 ## API
 

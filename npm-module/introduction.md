@@ -8,7 +8,7 @@ BrickVerse.co has an official NPMJS Module written in TypeScript by BrickVerse.c
 const { Client } = requre("brickverse");
 let bot = new Client();
 
-bot.login(process.env.BRICKVERSE_SECURITY_TOKEN, false).then(async() => {
+bot.login(process.env.BRICKVERSE_SECURITY_TOKEN, "player").then(async() => {
     await bot.SendFriendRequest(1);
     
     bot.quit(); // terminates session. this will invalidate your BRICKVERSE SECURITY TOKEN!
