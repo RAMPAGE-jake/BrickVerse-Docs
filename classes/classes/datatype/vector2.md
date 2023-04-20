@@ -10,21 +10,25 @@ In BrickVerse, the `Vector2` datatype is often used in working with GUI elements
 
 ### Properties <a href="#properties" id="properties"></a>
 
-| Vector2 **Vector2.zero**                                                                                                                                                                                                                                                          |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>A Vector2 with a magnitude of zero.</p><p>This API member is a <strong>constant</strong>, and must be accessed through the <code>Vector2</code> global as opposed to an individual <code>Vector2</code> object.</p><p></p><pre><code>print(Vector2.zero) --> 0, 0</code></pre> |
+| Vector2 **Vector2.zero**                                                                                                                                                                                                                                                           |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>A Vector2 with a magnitude of zero.</p><p>This API member is a <strong>constant</strong>, and must be accessed through the <code>Vector2</code> global as opposed to an individual <code>Vector2</code> object.</p><p></p><pre><code>print(Vector2.zero) --> 0, 0
+</code></pre> |
 
-| Vector2 **Vector2.one**                                                                                                                                                                                                                                                                 |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>A Vector2 with a value of 1 on every axis.</p><p>This API member is a <strong>constant</strong>, and must be accessed through the <code>Vector2</code> global as opposed to an individual <code>Vector2</code> object.</p><p></p><pre><code>print(Vector2.one) --> 1, 1</code></pre> |
+| Vector2 **Vector2.one**                                                                                                                                                                                                                                                                  |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>A Vector2 with a value of 1 on every axis.</p><p>This API member is a <strong>constant</strong>, and must be accessed through the <code>Vector2</code> global as opposed to an individual <code>Vector2</code> object.</p><p></p><pre><code>print(Vector2.one) --> 1, 1
+</code></pre> |
 
-| Vector2 **Vector2.xAxis**                                                                                                                                                                                                                                                                 |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>A Vector2 with a value of 1 on the X axis.</p><p>This API member is a <strong>constant</strong>, and must be accessed through the <code>Vector2</code> global as opposed to an individual <code>Vector2</code> object.</p><p></p><pre><code>print(Vector2.xAxis) --> 1, 0</code></pre> |
+| Vector2 **Vector2.xAxis**                                                                                                                                                                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <p>A Vector2 with a value of 1 on the X axis.</p><p>This API member is a <strong>constant</strong>, and must be accessed through the <code>Vector2</code> global as opposed to an individual <code>Vector2</code> object.</p><p></p><pre><code>print(Vector2.xAxis) --> 1, 0
+</code></pre> |
 
-| Vector2 **Vector2.yAxis**                                                                                                                                                                                                                                                                 |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>A Vector2 with a value of 1 on the Y axis.</p><p>This API member is a <strong>constant</strong>, and must be accessed through the <code>Vector2</code> global as opposed to an individual <code>Vector2</code> object.</p><p></p><pre><code>print(Vector2.yAxis) --> 0, 1</code></pre> |
+| Vector2 **Vector2.yAxis**                                                                                                                                                                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <p>A Vector2 with a value of 1 on the Y axis.</p><p>This API member is a <strong>constant</strong>, and must be accessed through the <code>Vector2</code> global as opposed to an individual <code>Vector2</code> object.</p><p></p><pre><code>print(Vector2.yAxis) --> 0, 1
+</code></pre> |
 
 | number **Vector2.X**             |
 | -------------------------------- |
@@ -56,13 +60,15 @@ In BrickVerse, the `Vector2` datatype is often used in working with GUI elements
 | ---------------------------------------------------------------------------------------- |
 | Returns a Vector2 linearly interpolated between this Vector2 and v by the fraction alpha |
 
-| Vector2 **Vector2:Max** ( Tuple others... )                                                                                                                                                                                                                                                                        |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Vector2 **Vector2:Max** ( Tuple others... )                                                                                                                                                                                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <p>Returns a <code>Vector2</code> where each component is the highest among the respective components of the provided <code>Vector2</code>s.</p><p></p><pre class="language-lua"><code class="lang-lua">local a = Vector2.new(1, 2)
 local b = Vector2.new(2, 1) 
-print(a:Max(b)) -- Vector2.new(2, 2)</code></pre> |
+print(a:Max(b)) -- Vector2.new(2, 2)
+</code></pre> |
 
-| Vector2 **Vector2:Min** ( Tuple others... )                                                                                                                                                                                                                                                                      |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Vector2 **Vector2:Min** ( Tuple others... )                                                                                                                                                                                                                                                                       |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <p>Returns a <code>Vector2</code> where each component is the lowest among the respective components of the provided <code>Vector2</code>s.</p><p></p><pre class="language-lua"><code class="lang-lua">local a = Vector2.new(1, 2)local b = Vector2.new(2, 1) 
-print(a:Min(b)) -- Vector2.new(1, 1)</code></pre> |
+print(a:Min(b)) -- Vector2.new(1, 1)
+</code></pre> |

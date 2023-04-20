@@ -12,6 +12,12 @@ Implementing video ad impressions in mobile gameplay sessions offers a variety o
 
 The more hits your ad got, the more Cubes you earned (at a rate of one Cubes per 20 impressions). So if you were trying to utilize the heavy traffic you received in your game, it was recommended to using the API to call the commercial before your game started. For those who already had a hit game, this this could have functioned as supplemental income.
 
+## Properties
+
+|                                                            |                 |
+| ---------------------------------------------------------- | --------------- |
+| `boolean` Enabled <mark style="color:red;">`Locked`</mark> | false (Default) |
+
 ## Functions
 
 |                                                                                                     |

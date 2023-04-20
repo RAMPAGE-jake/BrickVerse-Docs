@@ -8,7 +8,7 @@ description: Camera Services for your world. Making everything possible!
 
 In an instance of the game, each client has its own Camera object associated with it. Camera objects exist only upon the viewer’s client, residing in that user’s local Workspace, and therefore cannot be edited directly from the server.
 
-Each client’s particular Camera object can be accessed through the `Workplace.CurrentCamera` property of the [`Workplace`](./) on that client.
+Each client’s particular Camera object can be accessed through the `Workplace.CurrentCamera` property of the [`Workplace`](../serviceprovider/workplace-1.md) on that client.
 
 
 

@@ -9,6 +9,7 @@ Inherited from [Dynamic](https://docs.brickverse.co/bricklua-lua-references-manu
 | Name       | Type | Description             |
 | ---------- | ---- | ----------------------- |
 | InputBegan | Void | Fires when input begins |
+| InputEnded | Void | Fires when input ended  |
 
 ## Example
 

@@ -344,7 +344,7 @@
         end)
         ```
 
-    **Newlines in Long Expressions**[**¶**](https://roblox.github.io/lua-style-guide/#newlines-in-long-expressions)****
+    **Newlines in Long Expressions**[**¶**](https://roblox.github.io/lua-style-guide/#newlines-in-long-expressions)
 
     * First, try and break up the expression so that no one part is long enough to need newlines. This isn't always the right answer, as keeping an expression together is sometimes more readable than trying to parse how several small expressions relate, but it's worth pausing to consider which case you're in.
     * It is often worth breaking up tables and arrays with more than two or three keys, or with nested sub-tables, even if it doesn't exceed the line length limit. Shorter, simpler tables can stay on one line though.
@@ -508,7 +508,7 @@
         end
         ```
 
-    **Blocks**[**¶**](https://roblox.github.io/lua-style-guide/#blocks)****
+    **Blocks**[**¶**](https://roblox.github.io/lua-style-guide/#blocks)
 
     *   Don't use parentheses around the conditions in `if`, `while`, or `repeat` blocks. They aren't necessary in Lua!
 

@@ -7,14 +7,14 @@ A **ViewportFrame** is a type of [`UI`](../../../dymanic/uiobject.md) that can r
 | [`Color`](https://developer.roblox.com/en-us/api-reference/datatype/Color3) Ambient | The lighting hue applied to the area within the [`ViewportFrame`](viewportframe.md) |
 | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 
-| [`Camera`](../workplace-1/camera.md)  CurrentCamera | [`Camera`](../workplace-1/camera.md) that is used to render children objects |
-| --------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [`Camera`](../../construction/camera.md)  CurrentCamera | [`Camera`](../../construction/camera.md) that is used to render children objects |
+| ------------------------------------------------------- | -------------------------------------------------------------------------------- |
 
 | [`Color`](https://developer.roblox.com/en-us/api-reference/datatype/Color3) ImageColor | Determines how a rendered image will be colorized |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------- |
 
-| [`float`](../../../learn-brickverse/numbers.md) ImageTransparency | Determines the transparency of the rendered image |
-| ----------------------------------------------------------------- | ------------------------------------------------- |
+| [`float`](../../../learn-lua/numbers.md) ImageTransparency | Determines the transparency of the rendered image |
+| ---------------------------------------------------------- | ------------------------------------------------- |
 
 | [`Color`](../../datatype/color.md) LightColor | The color of the emitted light |
 | --------------------------------------------- | ------------------------------ |
