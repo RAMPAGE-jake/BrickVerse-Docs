@@ -15,11 +15,7 @@ API used to chec avaliablity of a username on registration & username changes.
 Username field must be passed as a query (?username=foo) or body param ({"username":"foo"}).
 {% endswagger-description %}
 
-{% swagger-parameter in="body" required="true" name="username" type="string" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="username" type="string" required="true" %}
+{% swagger-parameter in="path" name="username" type="String" required="true" %}
 
 {% endswagger-parameter %}
 
