@@ -20,7 +20,11 @@
   * [Guild Endpoint](npm-module/web-api/guild-endpoint/README.md)
     * [JoinGuild](npm-module/web-api/guild-endpoint/joinguild.md)
 
-## API
+***
+
+* [Page 1](page-1.md)
+
+## Legacy API <a href="#api" id="api"></a>
 
 * [Test The API](api/test-the-api.md)
 * [Warning](api/warning.md)
@@ -52,6 +56,11 @@
   * [v1/purchase-reseller](api/asset/v1-purchase-reseller.md)
   * [v1/create](api/asset/v1-create.md)
   * [v1/get](api/asset/v1-get.md)
+
+## v2 api
+
+* [User](v2-api/user/README.md)
+  * [username-available](v2-api/user/username-available.md)
 
 ## Getting Started
 
