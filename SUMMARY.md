@@ -60,6 +60,7 @@
 ## v2 api
 
 * [User](v2-api/user/README.md)
+  * [register](v2-api/user/register.md)
   * [username-available](v2-api/user/username-available.md)
 
 ## Getting Started

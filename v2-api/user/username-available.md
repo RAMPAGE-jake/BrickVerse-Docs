@@ -2,17 +2,7 @@
 
 {% swagger method="get" path="/username-available" baseUrl="https://api.brickverse.co/v2/user" summary="Information" %}
 {% swagger-description %}
-API used to chec avaliablity of a username on registration & username changes.
-
-\
-
-
-
-
-\
-
-
-Username field must be passed as a query (?username=foo) or body param ({"username":"foo"}).
+API used to check avaliablity of a username on registration & username changes.
 {% endswagger-description %}
 
 {% swagger-parameter in="path" name="username" type="String" required="true" %}
