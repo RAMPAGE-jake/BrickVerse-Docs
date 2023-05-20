@@ -12,6 +12,8 @@ coverY: 0
 
 Welcome to BrickVerse Documentation, Here you can find API Documents, Developer Information, coding tutorials, and more for our wonderful platform.
 
+If your looking for public/general documentation please go to resources.brickverse.co
+
 ## Contribute
 
 Help with our wonderful documents! By contributing on our official GitHub!
