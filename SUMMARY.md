@@ -62,6 +62,7 @@
 * [User](v2-api/user/README.md)
   * [register](v2-api/user/register.md)
   * [username-available](v2-api/user/username-available.md)
+  * [validate-beta-key](v2-api/user/validate-beta-key.md)
 
 ## Getting Started
 

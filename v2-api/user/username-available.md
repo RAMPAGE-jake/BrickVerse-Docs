@@ -1,5 +1,7 @@
 # username-available
 
+## API Example
+
 {% swagger method="get" path="/username-available" baseUrl="https://api.brickverse.co/v2/user" summary="Information" %}
 {% swagger-description %}
 API used to check avaliablity of a username on registration & username changes.
@@ -27,3 +29,11 @@ API used to check avaliablity of a username on registration & username changes.
 ```
 {% endswagger-response %}
 {% endswagger %}
+
+## Bad Reference ID (bad\_ref\_id)
+
+| bad\_ref\_id | reason                                        |
+| ------------ | --------------------------------------------- |
+| 1            | Invalid username length or not alphanumberic. |
+| 2            | Username taken                                |
+| 3            | Username blacklisted                          |
