@@ -1,13 +1,13 @@
-# id
+# username
 
 ## API Example
 
-{% swagger method="get" path="/id" baseUrl="https://api.brickverse.co/v2/user" summary="Information" expanded="true" %}
+{% swagger method="get" path="/username" baseUrl="https://api.brickverse.co/v2/user" summary="Information" expanded="true" %}
 {% swagger-description %}
 API used to pull limited amount of user-data.
 {% endswagger-description %}
 
-{% swagger-parameter in="path" name="user_id" type="Int" required="true" %}
+{% swagger-parameter in="path" name="username" type="String" required="true" %}
 
 {% endswagger-parameter %}
 

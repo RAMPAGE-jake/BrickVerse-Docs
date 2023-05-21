@@ -65,6 +65,7 @@
   * [email-available](v2-api/user/email-available.md)
   * [validate-beta-key](v2-api/user/validate-beta-key.md)
   * [id](v2-api/user/id.md)
+  * [username](v2-api/user/username.md)
 
 ## Getting Started
 
