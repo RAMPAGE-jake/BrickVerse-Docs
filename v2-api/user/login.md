@@ -2,7 +2,7 @@
 
 {% swagger method="post" path="/login" baseUrl="https://api.brickverse.co/v2/user" summary="Information" %}
 {% swagger-description %}
-API used to register accounts.
+API used to log into accounts.
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="username" type="String" required="true" %}
@@ -13,24 +13,16 @@ API used to register accounts.
 
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" type="String" required="true" name="email" %}
+{% swagger-parameter in="body" name="captcha" type="String" required="true" %}
 
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" type="String" required="true" name="gender" %}
+{% swagger-parameter in="body" name="two_step_id" type="Int" %}
 
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" type="Bool" required="true" name="tos_agree" %}
+{% swagger-parameter in="body" name="two_step_response" type="String" %}
 
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="child_account" type="Bool" required="true" %}
-If registered as a minor account.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="parent_email" type="String" %}
-Required if child_account is true.
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Response" %}

@@ -13,6 +13,10 @@ API used to register accounts.
 
 {% endswagger-parameter %}
 
+{% swagger-parameter in="body" name="captcha" type="String" required="true" %}
+
+{% endswagger-parameter %}
+
 {% swagger-parameter in="body" type="String" required="true" name="email" %}
 
 {% endswagger-parameter %}
