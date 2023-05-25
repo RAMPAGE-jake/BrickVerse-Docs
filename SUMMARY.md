@@ -59,6 +59,8 @@
 
 ## v2 api
 
+* [Auth](v2-api/auth/README.md)
+  * [bot-login](v2-api/auth/bot-login.md)
 * [User](v2-api/user/README.md)
   * [register](v2-api/user/register.md)
   * [login](v2-api/user/login.md)
@@ -67,6 +69,7 @@
   * [validate-beta-key](v2-api/user/validate-beta-key.md)
   * [id](v2-api/user/id.md)
   * [username](v2-api/user/username.md)
+  * [edit-setting](v2-api/user/edit-setting.md)
 
 ## Getting Started
 
