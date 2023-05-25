@@ -1,13 +1,13 @@
-# bot-login
+# transparency-request
 
-{% swagger method="post" path="/bot-login" baseUrl="https://api.brickverse.co/v2/auth" summary="Information" %}
+{% hint style="warning" %}
+Account authentication required. Read about account authentication at [https://developers.brickverse.co/v2-api/auth/bot-login](https://developers.brickverse.co/v2-api/auth/bot-login).
+{% endhint %}
+
+{% swagger method="post" path="transparency-request" baseUrl="https://api.brickverse.co/v2/user/" summary="Information" %}
 {% swagger-description %}
-API used to log into accounts.
+API request transparency records of your account data. Record data will be shipped to your email address on record. Some data will not be shown such as passwords.
 {% endswagger-description %}
-
-{% swagger-parameter in="body" name="bot_token" required="true" type="String" %}
-
-{% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Response" %}
 ```json
@@ -23,7 +23,7 @@ API used to log into accounts.
 
 {% swagger-response status="403: Forbidden" description="" %}
 ```json
-{"status": "error", "message": 403}
+{"status": "error", "message": "reason_string"}
 ```
 {% endswagger-response %}
 
@@ -33,3 +33,4 @@ API used to log into accounts.
 ```
 {% endswagger-response %}
 {% endswagger %}
+

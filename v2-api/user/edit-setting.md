@@ -1,7 +1,7 @@
 # edit-setting
 
-{% hint style="info" %}
-Account authentication required.
+{% hint style="warning" %}
+Account authentication required. Read about account authentication at [https://developers.brickverse.co/v2-api/auth/bot-login](https://developers.brickverse.co/v2-api/auth/bot-login).
 {% endhint %}
 
 {% swagger method="post" path="/edit-setting" baseUrl="https://api.brickverse.co/v2/user" summary="Information" %}
@@ -31,7 +31,7 @@ API used to modify account settings.
 
 {% swagger-response status="403: Forbidden" description="" %}
 ```json
-{"status": "error", "message": 403}
+{"status": "error", "message": "reason_string"}
 ```
 {% endswagger-response %}
 
@@ -41,3 +41,11 @@ API used to modify account settings.
 ```
 {% endswagger-response %}
 {% endswagger %}
+
+## Setting Types
+
+| Name                         | About                                                                             |
+| ---------------------------- | --------------------------------------------------------------------------------- |
+| info\_blurb                  | Profile blurb                                                                     |
+| info\_gender                 | Profile Gender. (Valid types: Male, Female, and Other)                            |
+| info\_social\_(social\_name) | Update social username. Valid socials are: YouTube, Twitch, Twitter, and Discord. |

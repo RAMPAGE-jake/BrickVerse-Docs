@@ -70,6 +70,7 @@
   * [id](v2-api/user/id.md)
   * [username](v2-api/user/username.md)
   * [edit-setting](v2-api/user/edit-setting.md)
+  * [transparency-request](v2-api/user/transparency-request.md)
 
 ## Getting Started
 
