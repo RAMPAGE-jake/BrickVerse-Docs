@@ -1,19 +1,15 @@
-# bot-login
+# get-token
 
-
-
-{% swagger method="post" path="/bot-login" baseUrl="https://api.brickverse.co/v2/auth" summary="Information" expanded="false" %}
+{% swagger method="get" path="/get-token" baseUrl="https://api.brickverse.co/v2/auth" summary="Information" expanded="false" %}
 {% swagger-description %}
-API used to log into accounts.
+Fetch active session's BrickVerse Security token.
+
+Sharing this token allows anyone to login as you.
 {% endswagger-description %}
-
-{% swagger-parameter in="body" name="bot_token" required="true" type="String" %}
-
-{% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Response" %}
 ```json
-{"status": "ok", "success": true}
+{"status": "ok", "success": true, "token": "token"}
 ```
 {% endswagger-response %}
 
