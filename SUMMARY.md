@@ -63,6 +63,7 @@
   * [get-token](v2-api/auth/get-token.md)
   * [bot-login](v2-api/auth/bot-login.md)
 * [User](v2-api/user/README.md)
+  * [search](v2-api/user/search.md)
   * [register](v2-api/user/register.md)
   * [login](v2-api/user/login.md)
   * [username-available](v2-api/user/username-available.md)
