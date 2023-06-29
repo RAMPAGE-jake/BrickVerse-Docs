@@ -59,6 +59,8 @@
 
 ## v2 api
 
+* [Notifications](v2-api/notifications/README.md)
+  * [all](v2-api/notifications/all.md)
 * [Auth](v2-api/auth/README.md)
   * [get-token](v2-api/auth/get-token.md)
   * [bot-login](v2-api/auth/bot-login.md)
