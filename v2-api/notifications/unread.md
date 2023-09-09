@@ -1,9 +1,13 @@
-# all
+# unread
 
-{% swagger method="get" path="/all" baseUrl="https://api.brickverse.co/v2/notifications" summary="Information" %}
+{% swagger method="get" path="/unread" baseUrl="https://api.brickverse.co/v2/notifications" summary="Information" %}
 {% swagger-description %}
 API used to fetch all notifications.
 {% endswagger-description %}
+
+{% swagger-parameter in="query" name="mark_read" type="Boolean" %}
+Marks all notifications read if true.
+{% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Response" %}
 ```json

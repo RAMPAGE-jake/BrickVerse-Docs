@@ -60,6 +60,7 @@
 ## v2 api
 
 * [Notifications](v2-api/notifications/README.md)
+  * [unread](v2-api/notifications/unread.md)
   * [all](v2-api/notifications/all.md)
 * [Auth](v2-api/auth/README.md)
   * [get-token](v2-api/auth/get-token.md)
