@@ -59,6 +59,8 @@
 
 ## v2 api
 
+* [Worlds](v2-api/worlds/README.md)
+  * [vanex-details](v2-api/worlds/vanex-details.md)
 * [Notifications](v2-api/notifications/README.md)
   * [unread](v2-api/notifications/unread.md)
   * [all](v2-api/notifications/all.md)
