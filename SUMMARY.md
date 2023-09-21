@@ -69,6 +69,7 @@
   * [all](v2-api/notifications/all.md)
 * [Auth](v2-api/auth/README.md)
   * [get-token](v2-api/auth/get-token.md)
+  * [join-game](v2-api/auth/join-game.md)
   * [bot-login](v2-api/auth/bot-login.md)
 * [User](v2-api/user/README.md)
   * [search](v2-api/user/search.md)
